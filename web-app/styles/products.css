@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.product .benefit {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.header .button {
+    width: 15%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: var(--white);
+    color: var(--dark-blue);
+    text-align: center;
+    margin: 2rem 0;
+}

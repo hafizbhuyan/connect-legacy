@@ -1,0 +1,206 @@
+.header {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.current-users {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.current-users .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.company {
+    margin-left: 2rem;
+    box-shadow: 5px 5px 4px 5px #888888;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.products .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.products .product-left,
+.products .product-right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.products .button {
+    width: 25%;
+    height: auto;
+    padding: 0.50rem;
+    margin-top: 2rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.products .cardsRp {
+    display: none;
+}
+
+.card {
+    width: 50%;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.who-you-are {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.who-you-are .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.who-you-are .content .subsection {
+    width: 45%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 1rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.who-you-are .subsection .socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.who-you-are .subsection .social {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    box-shadow: 0 3px 10px var(--white);
+}
+
+.social-container:hover {
+    transform: scale(1.10);
+}
+
+.the-team {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.the-team .content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.the-team .content .subsection {
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .current-users h2 {
+        font-size: 2rem;
+    }
+
+    .current-users .content {
+        flex-direction: column;
+    }
+
+    .current-users .content .company {
+        margin-top: 2rem;
+    }
+
+    .products h2 {
+        font-size: 2rem;
+    }
+
+    .products .content {
+        flex-direction: column;
+    }
+
+    .products .cards {
+        display: none;
+    }
+
+    .products .cardsRp {
+        display: block;
+    }
+
+    .who-you-are .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .who-you-are .content .subsection {
+        width: 75%;
+    }
+
+    .the-team .content {
+        flex-direction: column;
+    }
+}

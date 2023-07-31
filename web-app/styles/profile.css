@@ -1,0 +1,421 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+}
+
+.edit {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border: none;
+    align-self: flex-end;
+    margin-right: 2rem;
+}
+
+.visitor {
+    background-color: var(--white);
+    color: var(--dark-blue);
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    align-self: flex-start;
+    margin-right: 2rem;
+}
+
+.addItem {
+    background-color: var(--dark-blue);
+    width: 5%;
+    height: auto;
+    border-radius: 2rem;
+    color: var(--white);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.add-item-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.modal-items {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item-image {
+    margin: 1rem;
+}
+
+.items {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.item {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    width: auto;
+    min-width: 25%;
+    overflow-wrap: break-word;
+    height: auto;
+    box-shadow: 5px 5px 4px 5px #888888;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.bottomNavbar {
+    width: 100%;
+    height: auto;
+    padding: 0.50rem 0;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+}
+
+.bottomNavbar .icon {
+    font-size: 3rem;
+    color: var(--light-blue);
+}
+
+.bottomNavbar .icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottomNavbar h4 {
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
+}
+
+fieldset {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: var(--white);
+}
+
+fieldset label {
+    margin: 1rem 0;
+    font-size: 1.50rem;
+}
+
+fieldset input {
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 75%;
+    height: auto;
+    text-align: center;
+}
+
+.button-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.button-container button {
+    width: 25%;
+    height: auto;
+    padding: 1rem;
+    margin: 0 2rem;
+    background-color: var(--white);
+    color: var(--dark-blue);
+    text-align: center;
+    font-size: 1.25rem;
+    border-radius: 2rem;
+}
+
+.updatePicture {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.updatePicture button {
+    width: 15%;
+    height: auto;
+    padding: 1rem;
+    background-color: var(--white);
+    color: var(--dark-blue);
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+.connection-container {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.connection {
+    width: 15%;
+    height: auto;
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--dark-blue);
+    background-color: var(--white);
+    box-shadow: 5px 5px 4px 5px #888888;
+    border-radius: 1rem;
+}
+
+.connection:hover {
+    transform: scale(1.10);
+}
+
+.setting {
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-blue);
+    background-color: var(--white);
+    box-shadow: 5px 5px 4px 5px #888888;
+    border-radius: 1rem;
+}
+
+.qr-container {
+    width: 25%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 4px 5px #888888;
+    margin: 2rem 0;
+    background-color: var(--dark-blue);
+}
+
+.share-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-container .share-item {
+    margin: 1rem;
+}
+
+.card-view {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card {
+    width: 50%;
+    height: 50%;
+    box-shadow: 5px 5px 4px 10px #888888;
+    padding: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+.card-editor-view {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-editor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-editor .button {
+    background-color: #FBFEF9;
+    color: #000428;
+    width: '25%';
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.card-editor fieldset {
+    width: 45%;
+}
+
+.card-editor input {
+    text-align: center;
+}
+
+.notes {
+    width: 75%;
+    height: auto;
+    background-color: var(--light-blue);
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.color-options {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.color {
+    width: 10%;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .qr-container {
+        width: 75%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-view {
+        width: 85%;
+    }
+        
+    .card {
+        width: 95%;
+    }
+
+    .card h2 {
+        font-size: 2rem;
+    }
+
+    .card h4 {
+        font-size: 1.25rem;
+    }
+
+    .notes h2 {
+        font-size: 1.5rem;
+    }
+
+    .notes h4 {
+        font-size: 1rem;
+    }
+
+    .card-editor {
+        flex-direction: column;
+    }
+
+    .card-editor button {
+        width: 50%;
+    }
+
+    .setting {
+        width: 85%;
+        justify-content: center;
+    }
+
+    .add-item-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .bottomNavbar .icon {
+        font-size: 2rem;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 75%;
+    }
+}

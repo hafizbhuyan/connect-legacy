@@ -1,0 +1,96 @@
+section {
+    width: 100%;
+    min-height: 80vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 2rem 0;
+    background-color: var(--dark-blue);
+}
+
+form {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: var(--white);
+}
+
+h4 {
+    color: var(--white);
+    margin: 1rem;
+}
+
+hr {
+    width: 25%;
+}
+
+fieldset label {
+    margin: 1rem 0;
+}
+
+fieldset input {
+    margin: 1rem 0;
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.login {
+    width: 25%;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 2rem;
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#forgotPass h4 {
+    text-align: center;
+    color: var(--light-blue);
+}
+
+.social-login {
+    background-color: var(--dark-blue);
+    border: none;
+    margin: 1rem;
+}
+
+section .button {
+    width: 15%;
+    padding: 0.25rem;
+    background-color: #FBFEF9;
+    color: #000428;
+    border-radius: 2rem
+}
+
+@media screen and (max-width: 1500px) {
+    section .button {
+        width: 50%;
+    }
+
+    .login {
+        width: 50%;
+    }
+}
