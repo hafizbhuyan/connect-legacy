@@ -5,13 +5,13 @@ import Visitor from './visitor';
 import '../../styles/profile.css'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBrwt3QbVyLrAK9dEkDbp60pm2yetzFCoU",
-    authDomain: "drivense-connect.firebaseapp.com",
-    projectId: "drivense-connect",
-    storageBucket: "drivense-connect.appspot.com",
-    messagingSenderId: "421311264180",
-    appId: "1:421311264180:web:5107083022f710e8c7eee1",
-    measurementId: "G-GHVX87GKQT"
+    apiKey: "XXXXXXXXXXXXXXXXXXXX",
+    authDomain: "XXXXXXXXXXXXXXXXXXXX",
+    projectId: "XXXXXXXXXXXXXXXXXXXX",
+    storageBucket: "XXXXXXXXXXXXXXXXXXXX",
+    messagingSenderId: "XXXXXXXXXXXXXXXX",
+    appId: "XXXXXXXXXXXXXXXXXXXXX",
+    measurementId: "XXXXX"
 };
 
 // Initialize Firebase
